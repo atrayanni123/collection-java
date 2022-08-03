@@ -14,11 +14,12 @@ public class MainJava {
 //        l.add("Rohit");
 //        reverseArraylist.reverse(l);
 //
-        List<String> list1=new ArrayList<String>();
-        list1.add("Banana");
-        list1.add("Apple");
-        list1.add("Orange");
-        list1.add("Date");
-        sortList.sort(list1);
+  //      List<String> list1=new ArrayList<String>();
+      //  list1.add("Banana");
+    //    list1.add("Apple");
+        //list1.add("Orange");
+        //list1.add("Date");
+        //sortList.sort(list1);
+
     }
 }
