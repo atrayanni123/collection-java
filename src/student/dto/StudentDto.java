@@ -1,23 +1,27 @@
-package student;
+package student.dto;
 
 
 /**
- * POJO Class - Plain Object Java Class
+ * POJO/DTO Class - Plain Object Java Class
  * This class is used only to store information about the student.
  */
-public class StudentInfo {
+public class StudentDto {
     // Attributes (fields)
     Integer rollNo;
     String firstName;
     String lastName;
-    list<StudentInfo>studentList;
+    int age;
+    String city;
+
     /**
      * Constructor - used to create new object of this class type.
      */
-    public StudentInfo(int roll, String fName, String lName) {
+    public StudentDto(int roll, String fName, String lName, int age, String city) {
         this.rollNo = roll;
         this.firstName = fName;
         this.lastName = lName;
+        this.age = age;
+        this.city = city;
     }
 
     /**
