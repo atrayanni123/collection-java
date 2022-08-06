@@ -21,8 +21,17 @@ public class TeacherService {
     }
 
     //ToDo: add new teacher to the teacherList
+    public void addNewTeacher(String fName,String lName,String subjectName ,Integer teacherId, List<StudentDto> studentList){
+        TeacherDto newTeacher = new TeacherDto(teacherId,fName,lName,subjectName,studentList );
+        teacherList.add(newTeacher);
+        System.out.println("new teacher has been added successfully.");
+    }
 
-    //Todo: get teacher by name
+    public List<TeacherDto> getTeacherList() {
+
+        return teacherList;
+    }
+//Todo: get teacher by name
 
     //Todo: update teacher detail
 }
